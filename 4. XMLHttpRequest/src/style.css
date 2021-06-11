@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*  {
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #081d44;
+    font-family: 'Roboto';
+    font-size: 1.3em;
+    line-height: 1.5em;   
+}
+
+.Caixa {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.calculadora{
+
+    width: 400px;
+    
+
+}
+
+.display{
+
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 15px;
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+.btn:hover {
+
+    background: #9e9e9e;
+
+}

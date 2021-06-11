@@ -33,13 +33,13 @@ async function executar() {
     //O try serve para tratar um possível erro
 
     try {
-   const fase1 = await teste('Fase 1-', random(1, 3)) 
-   console.log(fase1);  
-   //Possível erro
-   const fase2 = await teste(404, random(1, 3))    
-   console.log(fase2); 
-   const fase3 = await teste('Fase 3-', random(1, 3))    
-   console.log(fase3);  
+        const fase1 = await teste('Fase 1-', random(1, 3)) 
+        console.log(fase1);  
+        //Possível erro
+        const fase2 = await teste(404, random(1, 3))    
+        console.log(fase2); 
+        const fase3 = await teste('Fase 3-', random(1, 3))    
+        console.log(fase3);  
     }
     catch(e) {
 
